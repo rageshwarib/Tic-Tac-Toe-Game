@@ -15,7 +15,7 @@ echo "-----------"
 echo "${gameBoard[6]}  | ${gameBoard[7]} | ${gameBoard[8]}"
 echo $gameBoard
 
-#To check that which letter assign to palyer 
+#To check that which letter assign to player
 letterCheck=$((RANDOM%2))
 if [[ $letterCheck == 0 ]] 
 then 
