@@ -6,10 +6,10 @@ PLAYER=0
 COMPUTER=1
 IS_EMPTY=" "
 declare -a gameBoard
+echo "Welcome to tic tac toe game"
 gameBoard=(" " " " " " " " " " " " " " " " " ")
 function displayBoard()
 {
-	echo "Welcome to tic tac toe game"
 	echo "		${gameBoard[0]}  | ${gameBoard[1]} | ${gameBoard[2]}"
 	echo "		-----------"
 	echo "		${gameBoard[3]}  | ${gameBoard[4]} | ${gameBoard[5]}"
